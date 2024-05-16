@@ -1,3 +1,13 @@
+ (     (    (                            (     (     
+ )\ )  )\ ) )\ )       (  (       (      )\ )  )\ )  
+(()/( (()/((()/( (     )\))(   '  )\    (()/( (()/(  
+ /(_)) /(_))/(_)))\   ((_)()\ )((((_)(   /(_)) /(_)) 
+(_))_|(_)) (_)) ((_)  _(())\_)())\ _ )\ (_))  (_))   
+| |_  |_ _|| _ \| __| \ \((_)/ /(_)_\(_)| |   | |    
+| __|  | | |   /| _|   \ \/\/ /  / _ \  | |__ | |__  
+|_|   |___||_|_\|___|   \_/\_/  /_/ \_\ |____||____| 
+                                                     
+                                                     
 Dynamic Firewall Setup Script
 This script provides an automated firewall setup solution with dynamic DNS resolution, rule persistence, logging, and enhanced security features. It ensures that only authorized outbound traffic is allowed, with specific protection for port 443 and TLS traffic at the application layer.
 

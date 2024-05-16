@@ -19,7 +19,13 @@
 ██║  ██║███████╗███████║╚██████╔╝███████╗╚██████╔╝   ██║   ██║╚██████╔╝██║ ╚████║
 ╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝ ╚══════╝ ╚═════╝    ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
                                                                                  
-Author : Taylor Christian Newsome [Contact](https://www.linkedin.com/in/clumsy/)
+Author : Taylor Christian Newsome 
+
+Contact : https://www.linkedin.com/in/clumsy/
+
+Date : 5/16/2024
+
+Social: https://youtube.com/Stripped
                                                                 
 Dynamic Firewall Setup Script
 This script provides an automated firewall setup solution with dynamic DNS resolution, rule persistence, logging, and enhanced security features. 

@@ -11,12 +11,12 @@ while true; do
     if [[ "$CURRENT_IPS" != "$PREV_IPS" ]]; then
         echo "Updating firewall rules for $DOMAIN: $CURRENT_IPS"
         
-        # Flush previous rules for this domain (Port 443)
-        iptables -D OUTPUT -p tcp -d $PREV_IPS --dport 443 -j ACCEPT 2>/dev/null
+        # Flush previous rules for this domain
+        iptables -D OUTPUT -p tcp -d $PREV_IPS -j ACCEPT 2>/dev/null
         
         # Apply new rules
         for ip in $CURRENT_IPS; do
-            iptables -I OUTPUT -p tcp -d $ip --dport 443 -j ACCEPT
+            iptables -I OUTPUT -p tcp -d $ip -j ACCEPT
         done
         
         PREV_IPS=$CURRENT_IPS

@@ -37,14 +37,19 @@ tput cnorm
 while true
 do
 clear
-echo -e "
-           ${BLUE}██${WHITE}╗${BLUE}██████${WHITE}╗ ${BLUE}████████${WHITE}╗ ${BLUE}█████${WHITE}╗ ${BLUE}██████${WHITE}╗ ${BLUE}██${WHITE}╗     ${BLUE}███████${WHITE}╗${BLUE}███████${WHITE}╗
-           ${BLUE}██${WHITE}║${BLUE}██${WHITE}╔══${BLUE}██${WHITE}╗╚══${BLUE}██${WHITE}╔══╝${BLUE}██${WHITE}╔══${BLUE}██${WHITE}╗${BLUE}██${WHITE}╔══${BLUE}██${WHITE}╗${BLUE}██${WHITE}║     ${BLUE}██${WHITE}╔════╝${BLUE}██${WHITE}╔════╝
-           ${BLUE}██${WHITE}║${BLUE}██████${WHITE}╔╝   ${BLUE}██${WHITE}║   ${BLUE}███████${WHITE}║${BLUE}██████${WHITE}╔╝${BLUE}██${WHITE}║     ${BLUE}█████${WHITE}╗  ${BLUE}███████${WHITE}╗
-           ${BLUE}██${WHITE}║${BLUE}██${WHITE}╔═══╝    ${BLUE}██${WHITE}║   ${BLUE}██${WHITE}╔══${BLUE}██${WHITE}║${BLUE}██${WHITE}╔══${BLUE}██${WHITE}╗${BLUE}██${WHITE}║     ${BLUE}██${WHITE}╔══╝  ╚════${BLUE}██${WHITE}║
-           ${BLUE}██${WHITE}║${BLUE}██${WHITE}║        ${BLUE}██${WHITE}║   ${BLUE}██${WHITE}║  ${BLUE}██${WHITE}║${BLUE}██████${WHITE}╔╝${BLUE}███████${WHITE}╗${BLUE}███████${WHITE}╗${BLUE}███████${WHITE}║
-           ${WHITE}╚═╝╚═╝        ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝╚══════╝
-"
+ echo -e "${YELLOW}    ██╗    ██╗ ██████╗ ███╗   ███╗██████╗        ${NC}"
+    echo -e "${YELLOW}    ██║    ██║██╔═══██╗████╗ ████║██╔══██╗       ${NC}"
+    echo -e "${YELLOW}    ██║ █╗ ██║██║   ██║██╔████╔██║██████╔╝       ${NC}"
+    echo -e "${YELLOW}    ██║███╗██║██║   ██║██║╚██╔╝██║██╔═══╝        ${NC}"
+    echo -e "${YELLOW}    ╚███╔███╔╝╚██████╔╝██║ ╚═╝ ██║██║            ${NC}"
+    echo -e "${YELLOW}     ╚══╝╚══╝  ╚═════╝ ╚═╝     ╚═╝╚═╝            ${NC}"
+    echo -e ""
+    echo -e "${LIGHTBLUE}████████╗ █████╗ ██████╗ ██╗     ███████╗███████╗${NC}"
+    echo -e "${LIGHTBLUE}╚══██╔══╝██╔══██╗██╔══██╗██║     ██╔════╝██╔════╝${NC}"
+    echo -e "${LIGHTBLUE}   ██║   ███████║██████╔╝██║     █████╗  ███████╗${NC}"
+    echo -e "${LIGHTBLUE}   ██║   ██╔══██║██╔══██╗██║     ██╔══╝  ╚════██║${NC}"
+    echo -e "${LIGHTBLUE}   ██║   ██║  ██║██████╔╝███████╗███████╗███████║${NC}"
+    echo -e "${LIGHTBLUE}   ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝╚══════╝${NC}"
 echo -e "${WHITE}Devs:${WHITE} [${LIGHTCYAN}Taylor Christian Newomse${WHITE}]"
 echo -e "${LIGHTBLUE}list ${WHITE}To See The Full List OF Commands "
 echo -e -n "${WHITE}Users Online:${LIGHTRED} "

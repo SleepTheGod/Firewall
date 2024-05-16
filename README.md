@@ -1,10 +1,4 @@
-[
-███████╗██╗██████╗ ███████╗██╗    ██╗ █████╗ ██╗     ██╗     
-██╔════╝██║██╔══██╗██╔════╝██║    ██║██╔══██╗██║     ██║     
-█████╗  ██║██████╔╝█████╗  ██║ █╗ ██║███████║██║     ██║     
-██╔══╝  ██║██╔══██╗██╔══╝  ██║███╗██║██╔══██║██║     ██║     
-██║     ██║██║  ██║███████╗╚███╔███╔╝██║  ██║███████╗███████╗
-╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚══════╝]
+
 Dynamic Firewall Setup Script
 This script provides an automated firewall setup solution with dynamic DNS resolution, rule persistence, logging, and enhanced security features. 
 It ensures that only authorized outbound traffic is allowed, with specific protection for port 443 and TLS traffic at the application layer.

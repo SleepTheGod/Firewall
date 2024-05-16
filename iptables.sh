@@ -36,9 +36,9 @@ main_menu() {
     echo -e "${LIGHTBLUE}   ██║   ██╔══██║██╔══██╗██║     ██╔══╝  ╚════██║${NC}"
     echo -e "${LIGHTBLUE}   ██║   ██║  ██║██████╔╝███████╗███████╗███████║${NC}"
     echo -e "${LIGHTBLUE}   ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝╚══════╝${NC}"
-    echo -e "${WHITE}Devs: ${LIGHTCYAN}@Slav${NC}"
+    echo -e "${WHITE}Devs: ${LIGHTCYAN}Taylor Christian Newsome${NC}"
     echo -e "${LIGHTBLUE}list ${WHITE}To See The Full List OF Commands"
-    echo -e -n "${WHITE}Users Online: ${LIGHTRED}"
+    echo -e -n "${WHITE}Commands: ${LIGHTRED}"
     users | wc -w
     echo -e "\n\n\n\n"
     echo -e -n "${WHITE}root@${LIGHTBLUE}IPTables${WHITE}:~# \c"

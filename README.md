@@ -7,16 +7,3 @@ Rule Persistence: Ensures firewall rules persist across reboots for consistent s
 Logging: Logs denied outbound attempts for audit and analysis, enhancing security monitoring capabilities.
 Security Enhancements: Minimizes the rule set to reduce potential attack surfaces and explicitly allows outbound HTTPS traffic (Port 443) to the specified domain.
 Flexibility: Allows for easy customization and addition of new rules to adapt to various network environments and requirements.
-
-Usage
-
-Clone the Repository
-git clone https://github.com/SleepTheGod/Firewall
-
-Navigate to the Repository Directory
-cd Firewall
-
-Modify the Main Firewall Setup Script
-Edit the main_firewall_setup.sh script to specify the domain you want to protect and customize any other settings according to your requirements.
-
-Make Scripts Executable

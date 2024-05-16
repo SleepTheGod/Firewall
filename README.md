@@ -8,7 +8,8 @@
                                                              
                                                      
 Dynamic Firewall Setup Script
-This script provides an automated firewall setup solution with dynamic DNS resolution, rule persistence, logging, and enhanced security features. It ensures that only authorized outbound traffic is allowed, with specific protection for port 443 and TLS traffic at the application layer.
+This script provides an automated firewall setup solution with dynamic DNS resolution, rule persistence, logging, and enhanced security features. 
+It ensures that only authorized outbound traffic is allowed, with specific protection for port 443 and TLS traffic at the application layer.
 
 Features
 Dynamic DNS Resolution: Continuously monitors the specified domain's DNS resolution and updates firewall rules accordingly to handle IP address changes.
